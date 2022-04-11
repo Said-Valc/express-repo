@@ -13,3 +13,5 @@ router.delete('/students/:id', (req, res) =>{
 router.patch('/students/:id', (req, res) => {
     res.json('path');
 })
+
+module.exports = router;
